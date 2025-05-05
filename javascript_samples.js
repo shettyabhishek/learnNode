@@ -1,4 +1,4 @@
-console.log("----------------- Working with JS Class & Function -------------------------");
+console.log("--------------- Working with JS Class & Function -----------------------");
 
 var myFunction = function(){
   this.a = "Some value of a";
@@ -16,10 +16,10 @@ console.log(myFunc.c);
 
 myFunc.a = "Check the value of a now";
 
-console.log("############################################################################");
+console.log("#########################################################################");
 console.log(myFunc.a);
 
-console.log("------------------- Count Occurrence of element ---------------------------");
+console.log("------------------- Count Occurrence of element -------------------------");
 function countColor(){
   const colours = ["red", "blue", "yellow", "red", "blue", "yellow", "red", "blue","orange","green"];
   console.log("Input array ",colours);
