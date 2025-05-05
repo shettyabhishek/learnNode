@@ -1,3 +1,5 @@
+console.log("------------------------------------------------------------------------");
+console.log("------------------------------------------------------------------------");
 console.log("-------------------------- Working with Promise all error handling (All promises handled with single then and catch) ----------------------------");
 const prm1 = new Promise((resolve,reject) => {
     resolve('This promise is resolved - prm1');
